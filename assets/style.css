@@ -1,0 +1,212 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:ivory;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+/* Start of header*/
+header {
+    padding: 20px 35px;
+    background-color: rgb(181, 72, 22);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: ivory;
+    margin: 0;
+   
+}
+
+header a {
+    color: ivory;
+    text-decoration: none;
+
+}
+
+header nav {
+    margin: 30px 0;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+
+footer h2 {
+    display: inline;
+    color:  rgb(181, 72, 22);
+    font-size: 30px;
+    margin: 0;
+}
+
+section {
+    padding: 60px;
+
+}
+
+.hero {
+    background-image: url("./images/111.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 350px;
+    width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 200px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    text-align: right;
+    
+}
+
+.bio p {
+    line-height: 1.7;
+    color: grey;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px;
+    color:black;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color:  rgb(181, 72, 22);
+}
+
+.my-project {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.projects h2{ 
+    color: black;
+    /* set padding to 0 top, 10 right and left, and 20 bottom */
+    padding: 0 10px 20px;
+    border-bottom: 3px solid rgb(181, 72, 22);
+}
+
+.all-projects {
+        /* create flexbox */
+        display: flex;
+        /* instruct it to break onto next line if it runs out of space */
+        flex-wrap: wrap;
+        /* put all unused space between items */
+        justify-content: space-between;
+        width: 100%
+}
+
+.my-project {
+    /* make each one 45%, putting 10% between each element on the page */
+    width: 45%;
+    /* rounded corners */
+    border-radius: 14px;
+    border: 4px solid gold;
+    font-size: 22px;
+    font-weight: bold;
+  
+    /* put space between each one vertically */
+    margin-bottom: 15px;
+  
+    /* for files in local images folder, use url('../images/file-name.jpg') */
+    background-image:'/Users/ak/Desktop/myprofile/assets/images/runbuddypreview.png';
+    /* tell background to fit box no matter what */
+    background-size: cover;
+  
+    /* crop it at the center */
+    background-position: center;
+  
+    /* padding top and bottom 20px, 0 for left/right */
+    padding: 20px 0;
+  
+    /* set minimum heigh value so there's room */
+    min-height: 250px;
+  
+    /* rather than use position...use flexbox and create column instead of row */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-project span {
+    /* pushes element to bottom of flex item */
+    margin-top: auto;
+    width: 100%;
+    background-color: #a8adba;
+    color: #393b4f;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+
+footer {
+    padding: 20px 35px;
+    background-color: rgb(181, 72, 22);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: ivory;
+    margin: 0;
+   
+
+}
+
+footer a {
+    color: ivory;
+    text-decoration: underline;
+    float: center;
+    margin: 20px 0;
+    
+}
+
+
+footer ul li {
+    font-size: 20px;
+    display: inline;
+    
+}
+
+footer ul li a {
+    margin: 0 40px;
+    font-weight: lighter;
+    font-size: 22px;
+    
+}
