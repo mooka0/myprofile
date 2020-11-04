@@ -15,9 +15,9 @@ WHEN I resize the page or view the site on various screens and devices<br>
 THEN I am presented with a responsive layout that adapts to my viewport<br>
 
 Home Page: https://github.com/mooka0/myprofile<br>
-<img src="images/myprofile-2.png"/>
-<img src="images/myprofile-2.png"/>
-<img src="images/myprofile-2.png"/>
+<img src="./assets/images/myprofile-1.png"/>
+<img src="./assets/images/myprofile-2.png"/>
+<img src="./assets/images/myprofile-3.png"/>
 
 ## Setup
 ```
