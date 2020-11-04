@@ -62,12 +62,16 @@ section {
 
 }
 
+.banner{
+    padding: 0px !important;
+}
+
 .hero {
     background-image: url("./images/111.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     height: 350px;
-    width: 1800px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -77,6 +81,13 @@ section {
     color:black;
     text-align: right;
     
+}
+
+#welcome{
+    background-color: gold;
+    height: 40%;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 .bio p {
@@ -144,9 +155,8 @@ section {
     margin-bottom: 15px;
   
     /* for files in local images folder, use url('../images/file-name.jpg') */
-    background-image:'/Users/ak/Desktop/myprofile/assets/images/runbuddypreview.png';
     /* tell background to fit box no matter what */
-    background-size: cover;
+    background-size: 100%;
   
     /* crop it at the center */
     background-position: center;
@@ -162,15 +172,46 @@ section {
     flex-direction: column;
   }
 
-  .my-project span {
-    /* pushes element to bottom of flex item */
+.all-projects h3 {
     margin-top: auto;
     width: 100%;
-    background-color: #a8adba;
-    color: #393b4f;
+    background-color: gold;
+    color: white;
     padding: 10px 5px;
     text-align: center;
+    height: 40%;
+    padding: 10px;
+    margin-top: 50px;
   }
+
+  #p1 {
+      background-image: url("./images/runbuddypreview.png") ;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+
+  #p2 {
+    background-image: url("./images/admin-ajax.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+    #p3 {
+    background-image: url("./images/admin-ajax.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+    #p4 {
+    background-image: url("./images/admin-ajax.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
 
 footer {
@@ -210,3 +251,6 @@ footer ul li a {
     font-size: 22px;
     
 }
+
+
+
