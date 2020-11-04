@@ -50,13 +50,6 @@ header nav ul li a {
 }
 
 
-footer h2 {
-    display: inline;
-    color:  rgb(181, 72, 22);
-    font-size: 30px;
-    margin: 0;
-}
-
 section {
     padding: 60px;
 
@@ -215,11 +208,14 @@ section {
 
 
 footer {
-    padding: 20px 35px;
     background-color: rgb(181, 72, 22);
     display: flex;
+    width: 100%;
+    padding: 20px 35px;
     justify-content: space-between;
+
 }
+
 
 footer h3 {
     font-weight: bold;
@@ -227,23 +223,24 @@ footer h3 {
     color: ivory;
     margin: 0;
    
-
 }
 
 footer a {
     color: ivory;
     text-decoration: underline;
-    float: center;
-    margin: 20px 0;
+    display: inline;
+    text-align: right;
     
 }
 
 
 footer ul li {
     font-size: 20px;
+    margin: 0;
+    text-align: right;
     display: inline;
-    
 }
+
 
 footer ul li a {
     margin: 0 40px;
@@ -251,6 +248,4 @@ footer ul li a {
     font-size: 22px;
     
 }
-
-
 
