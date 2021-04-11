@@ -235,6 +235,25 @@ section {
     background-repeat: no-repeat;
     background-size: 100%;
     
+    
+}
+
+#p5 {
+    background-image: url("./images/movie.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+#p6 {
+    background-image: url("./images/weather.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
 }
 
 
